@@ -139,7 +139,7 @@ export default {
 /* Responsivo para celulares pequeños */
 @media (max-width: 480px) {
   .contenido {
-    height: 80vh;
+    height: 50vh;
     padding: 1.5rem 1rem;
     margin-top: 0vh;
   }
@@ -162,6 +162,7 @@ export default {
   flex-direction: column;
   gap: 1rem;
   align-items: center; /* Alinea al centro */
+  margin-top: 5rem;
 }
 
 .btn {
@@ -172,9 +173,43 @@ export default {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  padding: 1rem;
+  padding: 0rem;
   font-weight: bold;
 }
+
+.personaje-img {
+  position: absolute;
+  top: 25%;      /* lo sube */
+  right: 8.5%;    /* lo mueve a la derecha */
+  width: 25%;
+}
+
+.maletin-img {
+  position: absolute;
+  top: 5%;      /* lo sube */
+  left: -10%;    /* lo mueve a la derecha */
+  width: 30%;
+}
+
+.resaltador-img {
+  position: absolute;
+  top: -7%;      /* lo sube */
+  right: -15%;    /* lo mueve a la derecha */
+  width: 50%;
+}
+.lapiz-img {
+  position: absolute;
+  bottom: 10%;      /* lo sube */
+  right: 15%;    /* lo mueve a la derecha */
+  width: 30%;
+}
+.libro-img {
+  position: absolute;
+  bottom: -4%;      /* lo sube */
+  left: 10%;    /* lo mueve a la derecha */
+  width: 30%;
+}
+
 
 }
 </style>
